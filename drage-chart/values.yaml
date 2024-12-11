@@ -1,0 +1,23 @@
+replicaCount: 1
+image:
+  repository: drage
+  tag: latest
+  pullPolicy: IfNotPresent
+
+nameOverride: ""
+fullnameOverride: ""
+
+serviceAccount:
+  create: true
+  name: ""
+  annotations: {}
+
+services:
+  - type: ClusterIP
+    name: http
+    port: 80
+    targetPort: 80
+
+ingress: []
+
+secrets: []

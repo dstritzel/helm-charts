@@ -1,0 +1,6 @@
+apiVersion: v2
+name: drage-chart
+description: A Helm chart for Kubernetes for general drage purposes
+type: application
+version: 0.0.1
+appVersion: 0.0.1
